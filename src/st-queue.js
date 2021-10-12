@@ -52,3 +52,4 @@ function ListNode(x, nextEl = null) {
     this.value = x;
     this.next = nextEl;
 }
+
