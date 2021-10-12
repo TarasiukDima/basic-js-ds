@@ -10,7 +10,7 @@
 
 ### **Бинарное дерево поиска**
 
-![Binary search tree](https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_tree.jpg)  
+![Binary search tree](https://www.tutorialspoint.com/data_structures_algorithms/images/binary_search_tree.jpg)
 **Бинарное дерево** — это иерархическая **структура данных**, в которой каждый **узел** имеет **значение** (оно же является в данном случае и ключом) и **ссылки** на **левого** и **правого** **потомка**. **Узел**, находящийся на самом верхнем уровне (не являющийся чьим либо потомком) называется **корнем**. **Узлы**, не имеющие потомков, называются **листьями**.
 
 
@@ -62,7 +62,7 @@
 Например, для `l` = `[3, 1, 2, 3, 4, 5]` и `k` = `3`,
 результат будет `[1, 2, 4, 5]`
 
-Узлы односвязного связного списка определяются интерфейсом: 
+Узлы односвязного связного списка определяются интерфейсом:
 
 ```js
 function ListNode(x) {
@@ -96,7 +96,7 @@ stack.pop(); // undefined
 ### **(ST) Очередь**
 Реализуйте **очередь** с заданным интерфейсом на основе **связного списка** (используйте `ListNode`, расположенный в папке `extensions`).
 Каждый экземпляр очереди должен иметь 3 метода:
-    * `enqueue(value)` — помещает `value` в конец **очереди** 
+    * `enqueue(value)` — помещает `value` в конец **очереди**
     * `deque` — извлекает значение с начала **очереди** и удаляет его
     * `getUnderlyingList` - возвращает **связный список**, лежащий в основе данной **очереди**
 
@@ -116,11 +116,11 @@ queue.getUnderlyingList() // возвращает { value: 3, next: null }
 ---
 
 #### Предварительные шаги
-1. Установите [Node.js](https://nodejs.org/en/download/)   
+1. Установите [Node.js](https://nodejs.org/en/download/)
 2. Сделайте форк этого репозитория: https://github.com/AlreadyBored/basic-js-ds
-3. Склонируйте себе этот репозиторий: https://github.com/<%your_github_username%>/basic-js-ds/  
-4. Перейдите в папку `basic-js-ds`  
-5. Вбейте в командную строку [`npm install`](https://docs.npmjs.com/cli/install) для установки зависимостей  
+3. Склонируйте себе этот репозиторий: https://github.com/<%your_github_username%>/basic-js-ds/
+4. Перейдите в папку `basic-js-ds`
+5. Вбейте в командную строку [`npm install`](https://docs.npmjs.com/cli/install) для установки зависимостей
 6. Выполните `npm run test` в командой строке.
 7. Вы увидите число ожидающих (pending), проходящих и падающих тестов. 100% проходящие тесты сооветствуют максимальному баллу за задание.
 
@@ -140,7 +140,7 @@ queue.getUnderlyingList() // возвращает { value: 3, next: null }
 
 ---
 
-© [AlreadyBored](https://github.com/alreadybored)  
+© [AlreadyBored](https://github.com/alreadybored)
 & задачи с префиксом `st-` интегрированы из [Short track 2021 repo](https://github.com/rkhaslarov/rs-school-short-track-2021)
 
 & Thanks [mikhama](https://github.com/mikhama) for assistance!
